@@ -1,0 +1,7 @@
+BBeva2.msim uses Hardstop1dA (working hardstop)
+BBeva2a.msim uses Hardstop1dA and beta = 0
+BBeva3.msim uses Hardstop1dC (hardstop with explicit bounce stop)
+BBeva3a.msim uses Hardstop1dC and beta = 0
+
+The Matlab script lastbounce.m computes the time of the last bounce t_B,infty 
+using (16).
