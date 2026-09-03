@@ -1,0 +1,4 @@
+BBevf4.msim uses Hardstop1dB (working hardstop with bounce time logging)
+
+Run the model and export PlotWindow1 as BBevf4.csv. The Matlab script
+bouncetime.m creates the plot testingaccuracy.pdf.
