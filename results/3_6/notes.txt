@@ -1,0 +1,21 @@
+Models DIsc1.msim, DIshu1.msim, DIesu1.msim use the short cut, Shockley and
+"explicite Shockley" diode together with the following solver parameters:
+- fixed step solver RK4, step size = 1e-8
+- Projection switched off
+- Event iterations = 1
+- Event Hysteresis = 0
+All run fine.
+
+Run all models and export PlotWindow1 XXXXFix.csv, where XXXX =
+disc/dishu/diesu1. Repeat with standard solver parameters (Rosenbrock, eps_rel =
+1e-10, eps_abs = 1e-10) and save results as XXXX.csv.
+
+Variants of the explicit shockley:
+- DIesu1.msim: der(i) = f(v, der(v)), locking: i = 0
+- DIesu2.msim: der(i) = f(v, der(v)), locking: der(i) = 0
+- DIesi1.msim: der(v) = f(i, der(i)), locking: i = 0
+- DIesi2.msim;  der(v) = f(i, der(i)), locking: der(i) = 0
+Run these models with solver parameters "Fix" and export PlotWindow1 as
+XXXXFix.csv, where XXXX= diesu2/diesi1/diesi2.
+
+The Matlab script explicitShockley.m creates the plot explicitShockley.pdf.

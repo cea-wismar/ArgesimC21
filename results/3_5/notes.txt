@@ -1,0 +1,8 @@
+DIshu1.msim uses the Shockley diode with i(v), DIshi1.msim uses the
+inverse relation v(i). Both have eps_rel = 1e-10, eps_abs = 1e-10 and
+the Rosenbrock solver.
+
+Run DIshu1/DIshi1 and export PlotWindow1 as dishu.csv/dishi.csv.
+
+The Matlab script algebstate.m shows the differences between both solutions.
+getCpuTimes.m uses times.txt to output timing results.

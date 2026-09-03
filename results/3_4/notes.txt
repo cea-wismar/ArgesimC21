@@ -1,0 +1,10 @@
+DIshu1.msim uses the Shockley diode, DIas1.msim the approximated Shockley
+diode. Both use eps_rel = 1e-10, eps_abs = 1e-10 and the Rosenbrock solver.
+
+Run DIshu1 and export PlotWindow1 as dishu.csv. Run DIas1 three times with
+parameters N = 3/5/10 and export PlotWindow1 as dias3/5/10.csv.
+
+The Matlab script approxShockley.m creates the plot shapprox.pdf.
+pdfcrop needs a little help here, use
+   pdfcrop --bbox "28 160 540 685" shapprox.pdf
+
