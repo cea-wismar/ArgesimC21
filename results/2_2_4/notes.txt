@@ -1,0 +1,10 @@
+BBcca3.msim uses ElastoGap and the high accuracy of 2_2_3.
+
+Run the model several times with different values for c (=k) and d and export
+PlotWindow1 as par_k_KKK_d_DDD.csv.
+Parameter values:
+  KKK   e6   e4   e8   e6   e6
+  DDD   500  500  500  50   5000
+
+The Matlab script varyParameters.m creates the plots allvars.pdf and
+comparekd.pdf.
