@@ -1,0 +1,24 @@
+RPfrhyb1.msim is the standard model for the rotating pendulum, where "Advanced
+Simulation/Plot Events" is switched off to prevent inclusion of additional
+output points.
+
+Run 5 times with different solver parameters:
+- 3x with standard values (eps_abs = 1e-6, eps_rel = 1e-6, Nplot = 30001)
+  and solvers RKF45, CK45, Rosenbrock
+- 2x with higher precision (eps_abs = 1e-12, eps_rel = 1e-12, Nplot = 30001)
+  and solver RKF45 and ROS
+
+Store results as
+  pendulum_RKF45.csv
+  pendulum_CK45.csv
+  pendulum_ROS.csv
+  pendulum_RKF45ref.csv
+  pendulum_ROSref.csv
+
+Run compareAlgorithms.m. This creates plot solvererrors.pdf and outputs some
+results.
+
+The additional files use the Rosenbrock solver with different parameter values
+  pendulum_ROS_EvIt.csv (Event Iterations = 1000 (def: 100))
+  pendulum_ROS_MinEv.csv (Minimize Events = On (def: Off))
+and produce identical results as pendulum_ROS.csv.

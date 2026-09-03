@@ -1,0 +1,7 @@
+RPfrhyb1.msim is the hybrid version of the rotating ball model.
+
+Run RPfrhyb1 (with tEnd = 7.59627 due to MapleSim bug) and export
+PlotWindow1 as pendulum.csv. Afterwards reset tEnd = 10 to get correct
+end message.
+
+The Matlab script pendulum.m creates the plot pendulum.pdf.

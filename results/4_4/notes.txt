@@ -1,0 +1,14 @@
+RPkihyb2.msim is the model of the rotating ball model with kick. RPkiAux1.msim
+solves the pendulum ODE with inverse time and contains parameter sets for the
+different initial values of interest.
+
+Run RPkihyb2 with an arbitrary gamma value and read the value of omega0 before
+the kick from the results. Run RPkiAux1 with initial value sets a, b, c, d and
+get the end values for omega.
+
+The Matlab script computeGamma.m contains these values and outputs the gamma
+values.
+
+Insert the values and convince yourself that the movements in all four cases
+conform to the description. Case 4 corresponds to the "maximal" interpretation
+of case (iii).
