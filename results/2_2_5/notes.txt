@@ -1,0 +1,6 @@
+BBcca3.msim uses ElastoGap and the high accuracy of 2_2_3. BBccm2.msim is
+identical, but has parameters for the Mars.
+
+Run both models and export PlotWindow1 as BB_Earth.csv and BB_Mars.csv.
+
+The Matlab script mars.m creates the plot mars.pdf.
