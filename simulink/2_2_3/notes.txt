@@ -1,0 +1,7 @@
+BBcca2.slx, contactphase.m, compareHeights.m
+
+The Matlab script contactphase runs the model and creates the plots
+contactphase1/2.pdf, flightphase2.pdf and the output table maxTables.txt.
+
+compareHeights compares results of two runs with accuracy 1e-10 and
+1e-12 for Simulink and MapleSim.

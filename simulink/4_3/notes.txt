@@ -1,0 +1,5 @@
+The Matlab script compareAlgorithms.m runs RPfrhyb1.slx with standard
+parameters for different solvers and displays and plots errors compared to a
+reference solution. Then it determines the effects of two special solver
+parameters for three selected solvers, displays and plots the results. It
+creates the plots solvererrorsRP.pdf and solvererrorsShape.pdf.

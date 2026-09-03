@@ -1,0 +1,9 @@
+BBevaf.slx, compensation.m, vOffset.m, computeV0.m
+
+BBevaf.slx contains a model with and without air resistance.
+
+The Matlab script vOffset computes the value t^min_B,infty that is mentioned in
+the paper, computeV0 computes the needed value v0 = 4.3956297745147346.
+
+This value for v0 is used for the mass with air resistance. The Matlab script
+compensation runs the model and creates the plot compensation.pdf.

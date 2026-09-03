@@ -1,0 +1,4 @@
+The Matlab script pendulum.m runs RPfrhyb1.slx and creates the plot
+pendulum.pdf. Then it runs with different solver options to get the exact stop
+time.
+

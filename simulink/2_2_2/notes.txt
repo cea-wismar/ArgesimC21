@@ -1,0 +1,8 @@
+BBcca1.slx is the standard model for bouncing ball with continuous events.
+It is used with two different sets of solver parameters:
+- normal: RelTol = 1e-6, AbsTol = 1e-6
+- ref:    RelTol = 1e-12, AbsTol = 1e-12
+Output values are produced in fixed steps of 1e-3 (giving 30001 values)
+
+compareAlgorithms runs the model with different solvers and parameters, creates
+plots solvererror45.pdf and solvererror15s.pdf and outputs some results.

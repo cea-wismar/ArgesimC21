@@ -1,0 +1,6 @@
+DIshu1.slx uses the Shockley diode with i(v), DIshi1.mslx uses the
+inverse relation v(i). Both have eps_rel = 1e-6, eps_abs = 1e-6 and
+the solver ode45.
+
+The Matlab script algebstate.m shows the differences between both solutions,
+getCpuTimes.m timing results.

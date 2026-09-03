@@ -1,0 +1,3 @@
+BBevf2.slx, bouncetime.m
+
+The Matlab script runs the model and creates the plot testingaccuracy.pdf.

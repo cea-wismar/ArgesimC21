@@ -1,0 +1,11 @@
+DIsc2.slx uses the short cut diode, DIshu1.slx the Shockley diode.
+
+Matlab script compareAlgorithms.m does the following for both models:
+- compares results with high precision (eps_abs = 1e-12, eps_rel = 1e-12,
+  Nplot = 50001) and solver ode45 and ode15s, sets ode45 results as reference
+  values
+- compares standard values (eps_abs = 1e-6, eps_rel = 1e-6, Nplot = 50001) with
+  reference values for seven solvers
+- plots all error results and saves a plot with typical examples
+  (DIsc2errorid.pdf/DIshu1errorid.pdf)
+- compares effects of changing ODE45 solver parameters

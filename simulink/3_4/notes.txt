@@ -1,0 +1,6 @@
+DIshu1.slx models the Shockley diode, DIas.slx the approximated Shockley
+diode. Both use eps_rel = 1e-6, eps_abs = 1e-6 and the ode45 or ode23tb solver,
+respectively.
+
+The Matlab script approxShockley.m creates the plots shapprox.pdf and
+errors.pdf.

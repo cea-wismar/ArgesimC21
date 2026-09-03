@@ -1,0 +1,12 @@
+RPkiAux1.slx solves the pendulum ODE with inverse time and computes the initial
+values of omega needed in the different scenarios. It contains parameter sets
+for the different initial values of interest.
+
+The Matlab script computeGamma.m uses these values to compute the gamma values.
+
+RPkihyb1.slx is the models of the rotating ball model with kick. Parameter
+values gamma1..4 are predefined.
+
+Use the different gamma values and convince yourself that the movements in all
+four cases conform to the description. Case 4 corresponds to the "maximal"
+interpretation of case (iii).

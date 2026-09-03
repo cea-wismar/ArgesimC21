@@ -1,0 +1,6 @@
+BBeva2.slx
+lastbounce.m
+
+The Matlab script computes the time of the last bounce t_B,infty using (16) and
+runs the model (with beta = 0 and beta = 0.002). It detects the threshold as
+the beginning of the final zeros.

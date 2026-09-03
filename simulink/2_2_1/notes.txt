@@ -1,0 +1,7 @@
+BBcca1.slx: ok
+
+BBcca1a.slx: State Switch without Memory and HitCrossing
+  Error: Ambiguous sorted order
+
+BBcca1b.slx: State Switch without HitCrossing
+  runs, but no triggering of state changes

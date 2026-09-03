@@ -1,0 +1,4 @@
+BBcca1.slx, varyParameters.m
+
+The Matlab script varyParameters.m runs the model and creates the plots
+allvars.pdf and comparekd.pdf.

@@ -1,0 +1,6 @@
+DIsc2.slx uses the shortcut diode, DIshu1.slx the Shockley diode. Both use
+standard parameters and the ode45 solver.
+
+The Matlab script compareShortcutShockley.m runs the models and creates the
+plot scsh.pdf, getCpuTimes.m runs the models several times and outputs timing
+results.

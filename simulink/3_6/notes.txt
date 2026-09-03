@@ -1,0 +1,10 @@
+Models DIsc2.slx, DIas.slx, DIesu1.msim use the short cut, approximated
+Shockley and "explicite Shockley" diode. For DIas the number of breakpoints
+N = 5.
+
+The Matlab script explicitShockley.m executes three tasks:
+- It runs all three models with ode45 and ode4 and compares the results. 
+- It runs the variants DIesu1 and DIesi1 of the explicit shockley with ode4 and
+  compares the results.
+- It runs the variants DIesu1 and DIesi1 with ode4 and DIshu1 with ode45 and
+  plots results and rel. errors in explicitShockley.pdf.
