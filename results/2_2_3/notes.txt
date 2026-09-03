@@ -1,0 +1,7 @@
+BBcca4.msim uses ElastoGapA to get additional output values maximal height and
+maximal deviation.
+
+Run the model and export PlotWindow1 as contactphase.csv.
+
+The Matlab script contactphase.m creates the plots contactphase1/2.pdf,
+flightphase2.pdf and the output table maxTables.txt.

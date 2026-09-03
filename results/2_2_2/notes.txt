@@ -1,0 +1,24 @@
+BBcca3.msim is the standard model for bouncing ball with continuous events.
+"Advanced Simulation/Plot Events" is switched off to prevent inclusion of
+additional output points.
+
+Run 5 times with different solver parameters:
+- 3x with standard values (eps_abs = 1e-6, eps_rel = 1e-6, Nplot = 30001)
+  and solvers RKF45, CK45, Rosenbrock
+- 2x with higher precision (eps_abs = 1e-12, eps_rel = 1e-12, Nplot = 30001)
+  and solver RKF45 and ROS
+
+Store results as
+  BBcca3_RKF45.csv
+  BBcca3_CK45.csv
+  BBcca3_ROS.csv
+  BBcca3_RKF45ref.csv
+  BBcca3_ROSref.csv
+
+Run compareAlgorithms.m. This creates plots solvererrorROS.pdf and vDetail.pdf
+and outputs some results.
+
+The additional files use the Rosenbrock solver with different parameter values
+  BBcca3_ROS_EvIt.csv (Event Iterations = 1000 (def: 100))
+  BBcca3_ROS_MinEv.csv (Minimize Events = On (def: Off))
+and produce identical results as BBcca3_ROS.csv.
