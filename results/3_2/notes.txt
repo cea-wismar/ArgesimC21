@@ -1,0 +1,27 @@
+DIsc1.msim uses the short cut diode, DIshu1.msim the Shockley diode.
+
+Switch off "Advanced Simulation/Plot Events" to prevent inclusion of additional
+output points.
+
+Run each model 5 times with different solver parameters:
+- 3x with standard values (eps_abs = 1e-6, eps_rel = 1e-6, Nplot = 20001)
+  and solvers RKF45, CK45, Rosenbrock
+- 2x with higher precision (eps_abs = 1e-12, eps_rel = 1e-12, Nplot = 20001)
+  and solver RKF45 and ROS
+
+Store results as
+  MMMM_RKF45.csv
+  MMMM_CK45.csv
+  MMMM_ROS.csv
+  MMMM_RKF45ref.csv
+  MMMM_ROSref.csv
+with MMMM = disc and dishu.
+
+Run compareAlgorithms.m. This creates plots discerrorid.pdf and
+dishuerrorid.pdf and outputs some results.
+
+The additional files use the Rosenbrock solver with different parameter values
+  MMMM_ROS_EvIt.csv (Event Iterations = 1000 (def: 100))
+  MMMM_ROS_MinEv.csv (Minimize Events = On (def: Off))
+and produce mostly identical results as MMMM_ROS.csv (except
+dishu_ROS_MinEv.csv, which is worse by a factor 10)

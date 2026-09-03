@@ -1,0 +1,7 @@
+DIsc1.msim uses the shortcut diode, DIshu1.msim the Shockley diode. Both use
+standard parameters and the Roesenbrock solver.
+
+Run both models and export PlotWindow1 as disc.csv and dishu1.csv.
+
+The Matlab script compareShortcutShockley.m creates the plot scsh.pdf,
+getCpuTimes.m outputs timing results.
