@@ -1,8 +1,0 @@
-BBevaf.msim contains a model with and without air resistance.
-
-The Matlab script vOffset.m computes the value t^min_B,infty that is mentioned
-in the paper.
-
-Call computeV0 and insert the computed value for v0 of the mass with air
-resistance. Run the model and export PlotWindow1 as compensation.csv. Script
-compensation.m creates the plot compensation.pdf.
